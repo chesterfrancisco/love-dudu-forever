@@ -123,17 +123,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "Kahit naiinis ka minsan pag naghihilik ako,ikaw pa rin ang gusto kong katabi sa pagtulog. 😴💖",
       "Kahit minsan mas mabilis ka pang mainis kaysa sa 5G internet,Ikaw pa rin ang laging priority connection ko. 📡💖",
       "Kahit wala akong Spotify Premium, Ikaw pa rin ang laging kanta ng puso ko. 💞",
-<<<<<<< HEAD
-      "Kahit maging senior citizens na tayo, ako pa rin ang maglalagay ng salonpas sa likod mo. 😆👵👴",
-      "Kahit kulubot na tayo at puti na buhok natin, ang pagmamahal ko sa'yo, fresh pa rin parang bagong ligo. 🚿💞",
-      "Hindi man tayo perfect, pero parang Jollibee, Langhap-sarap ang love ko sa’yo—panghabambuhay! 🍗💖",
-      "Kahit na minsan hindi tayo nagkakaintindihan, mas pipiliin ko pa rin ang buhay na kasama ka",
-=======
       "Kahit maging senior citizens na tayo, Ako pa rin ang maglalagay ng salonpas sa likod mo. 😆👵👴",
       "Kahit kulubot na tayo at puti na buhok natin, Ang pagmamahal ko sa'yo, fresh pa rin parang bagong ligo. 🚿💞",
       "Hindi man tayo perfect, pero parang Jollibee, Langhap-sarap ang love ko sa’yo—panghabambuhay! 🍗💖",
       "Kahit na minsan hindi tayo nagkakaintindihan, Mas pipiliin ko pa rin ang buhay na kasama ka",
->>>>>>> 1782ce2481cbda65ca0f33b4c74738834237d2fa
       "Sa lahat ng away-bati natin, lagi pa rin akong babalik sa yakap mo. 🤗❤️",
       "At sa dulo ng lahat, ikaw at ikaw pa rin… Ang forever best decision ko.",
       "Alam kong hindi laging masaya ang bawat araw",
