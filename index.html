@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Love</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <style>
+      /* Valentine's Day Theme */
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        background: url("./public/images/bg.jpg") no-repeat center center/cover;
+        font-family: "Arial", sans-serif;
+        color: #ff4d6d;
+        overflow: hidden;
+      }
+
+      /* Increase the width of the container */
+      .container {
+        background: rgba(255, 182, 193, 0.9); /* Light pink overlay */
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        width: 500px; /* Adjusted for better balance */
+        max-width: 90%;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .banner-gif img {
+        width: 250px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 26px;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+      }
+
+      button {
+        padding: 12px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        font-weight: bold;
+      }
+
+      #yes-button {
+        background: #ff4d6d;
+        color: white;
+      }
+
+      #no-button {
+        background: #555;
+        color: white;
+      }
+
+      #yes-button:hover {
+        background: #ff1e50;
+        transform: scale(1.1);
+      }
+
+      #no-button:hover {
+        background: #222;
+        transform: scale(1.1);
+      }
+
+      .message {
+        display: none;
+        margin-top: 20px;
+        padding: 15px;
+        background: #ff6b81;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+      }
+
+      #special-message-button {
+        display: none;
+        margin-top: 15px;
+        background: #ff4d6d;
+        color: white;
+        font-size: 18px;
+        padding: 12px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      #special-message-button:hover {
+        background: #ff1e50;
+        transform: scale(1.1);
+      }
+
+      /* Floating Hearts */
+      .heart {
+        position: absolute;
+        font-size: 24px;
+        color: red;
+        animation: floatUp 4s linear infinite;
+      }
+
+      @keyframes floatUp {
+        0% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100vh);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner-gif">
+        <img id="banner" src="./public/images/bubu.gif" alt="banner" />
+      </div>
+      <h1 id="question-heading">Will you be my Valentine?</h1>
+      <div class="buttons">
+        <button id="yes-button"><p>Yes</p></button>
+        <button id="no-button"><p>No</p></button>
+      </div>
+      <div class="message">
+        <h2 id="success-message">
+          Yepppie!! <br /><br />
+          Happy Valentine's Day, my love and monthsary :3
+        </h2>
+        <button id="special-message-button">
+          Click for a Special Message 💖
+        </button>
+      </div>
+    </div>
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
